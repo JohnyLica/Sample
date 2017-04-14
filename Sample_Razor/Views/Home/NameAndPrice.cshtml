@@ -1,0 +1,10 @@
+﻿@model Sample_Razor.Models.Product
+
+@{
+    ViewBag.Title = "NameAndPrice";
+    Layout = "~/Views/Home/_BasicLayout.cshtml";
+}
+
+<h2>NameAndPrice</h2>
+
+The product name is @Model.Name and the price is @Model.Price
